@@ -1,0 +1,91 @@
+body {
+	width: 1350px;
+	height: 2500px;
+
+margin: 0px;
+padding: 0px;
+
+background-image: url("https://i.pinimg.com/736x/e1/68/e0/e168e0ac4a104f7d5c4cfa82ccd5deb6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header-box {
+	width: 100%;
+	height: 80px;
+
+	margin-top: 10px;
+
+	padding: 10px;
+
+	position: sticky;
+	top: 0px;
+
+	display: flex;
+
+	background-color: white;
+	
+	box-shadow: 0px 0px 1px grey;
+
+	box-sizing: border-box;
+
+	justify-content: safe right;
+}
+
+.box1, .box2, .box3, .box4 {
+	width: 160px;
+	height: 60px;
+
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	transition: all 300ms ease-in-out;
+}
+
+.box1:hover , .box2:hover , .box3:hover , .box4:hover {
+	transform: scale(1.2);
+	
+}
+
+.title-Box {
+	width: 100%;
+	height: 400px;
+
+	display: flex;
+
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background-color: inherit;
+	border: none;
+
+		font-size: 1.4em;
+}
+
+h6 {
+	margin: 0px;
+	font-size: 1em;
+
+	font-family: sans-serif;
+}
+h1 {
+	margin: 10px;
+	font-size: 3em;
+
+	font-family: sans-serif;
+
+	color: black;
+}
+h3 {
+	margin: 0px;
+
+	font-family: sans-serif;
+}
+
+
